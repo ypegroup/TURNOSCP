@@ -8,7 +8,7 @@
 // Es una protección contra cambios accidentales, no seguridad
 // frente a personas con acceso al código o al almacenamiento.
 // ============================================================
-const ADMIN_PASSWORD = 'CAMBIAR_ESTA_CLAVE';
+const ADMIN_PASSWORD = '1212';
 function requireAdmin(actionName){
   const supplied=window.prompt('🔐 Contraseña de administrador para '+actionName+':');
   if(supplied===null)return false;
